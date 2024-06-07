@@ -27,7 +27,7 @@
                     </label>
                     <div class="input-field">
                         <i class="fa-solid fa-weight-hanging"></i>
-                        <input type="number" id="weight" required>
+                        <input type="number" id="weight" name="weight" required>
                         <span>
                             Kg
                         </span>
@@ -36,11 +36,11 @@
 
                 <div class="input-box">
                     <label for="height">
-                        Altura em M
+                        Altura em metros
                     </label>
                     <div class="input-field">
                         <i class="fa-solid fa-ruler"></i>
-                        <input type="number" id="height" required>
+                        <input type="number" step="0.01" id="height" name="height" required>
                         <span>
                             m
                         </span>
@@ -55,7 +55,7 @@
             <div id="infos" class="hidden">
                 <div id="result">
                     <div id="bmi">
-                        <span id="valu"></span>
+                        <span id="value"></span>
                         <span>Seu IMC</span>
                     </div>
                     <div id="description">
@@ -64,8 +64,9 @@
                 </div>
 
                 <div id="more_info">
-                    <a href="https://www.tuasaude.com/calculadora/imc/ " target="_blank">Mais informações</a>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <a href="https://www.tuasaude.com/calculadora/imc/ " target="_blank">Mais informações
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
         </section>

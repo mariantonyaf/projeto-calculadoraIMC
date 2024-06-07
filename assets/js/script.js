@@ -12,5 +12,11 @@ form.addEventListener('submit', function(event){
     let description = ''
 
     document.getElementById('infos').classList.remove('hidden')
+
+    if(bmi < 18.5){
+        description = 'Cuidado! Você está abaixo do peso!'
+    }
+
+    document.getElementById('description').textContent = description
 })
 
