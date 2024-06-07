@@ -133,6 +133,8 @@ body{
 
 #description{
     width: 15.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #more_info{
