@@ -95,3 +95,9 @@ body{
 .input-field input::-webkit-inner-spin-button{
     appearance: none;
 }
+
+.input-field input:focus{
+    outline: none;
+}
+
+
